@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJld8e1ae0cf2177f7360fd58ab91f85be3"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl69e76b6c61631f60f1b568a6f890d604"/>
   <meta charset="utf-8">
   <title>Panorama AR</title>
   <meta name="generator" content="Google Web Designer 4.2.0.0802">
@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="gwdpage_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-page">
   <link href="gwdpagedeck_style.css" rel="stylesheet" data-version="11" data-exports-type="gwd-pagedeck">
+  <link href="gwdgesture_style.css" rel="stylesheet" data-version="6" data-exports-type="gwd-gesture">
+  <link href="gwdimage_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-image">
+  <link href="gwdgallerynavigation_style.css" rel="stylesheet" data-version="5" data-exports-type="gwd-gallerynavigation">
+  <link href="gwdcarouselgallery_style.css" rel="stylesheet" data-version="21" data-exports-type="gwd-carouselgallery">
   <style type="text/css" id="gwd-lightbox-style">.gwd-lightbox {
     overflow: hidden;
 }</style>
@@ -74,7 +78,6 @@ body {
     -webkit-transform-origin: 1px 6.09758px 0px;
     -moz-transform-origin: 1px 6.09758px 0px;
     font-family: Verdana;
-    top: 195px;
     left: 50%;
     transform: translate3d(-232px, 0px, 0px);
     -webkit-transform: translate3d(-232px, 0px, 0px);
@@ -82,6 +85,8 @@ body {
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
+    top: 100px;
+    font-size: 25px;
 }
 .gwd-h1-1rr9 {
     position: absolute;
@@ -92,11 +97,38 @@ body {
     -webkit-transform-origin: 70px 358px 0px;
     -moz-transform-origin: 70px 358px 0px;
     font-family: Verdana;
-    top: 283px;
     left: 50%;
     transform: translate3d(-315px, 0px, 0px);
     -webkit-transform: translate3d(-315px, 0px, 0px);
     -moz-transform: translate3d(-315px, 0px, 0px);
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    font-size: 20px;
+    top: 175px;
+}
+.gwd-carouselgallery-1uu4 {
+    position: absolute;
+    top: 50%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    left: 50%;
+    width: 300px;
+    height: 175px;
+    transform: translate3d(-150px, -87px, 0px);
+    -webkit-transform: translate3d(-150px, -87px, 0px);
+    -moz-transform: translate3d(-150px, -87px, 0px);
+}
+.gwd-gallerynavigation-wx74 {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 518.695px;
+    left: 50%;
+    transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -moz-transform: translate3d(-100px, 0px, 0px);
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -105,6 +137,10 @@ body {
   <script data-source="gwd_webcomponents_min.js" data-version="5" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
   <script data-source="gwdpage_min.js" data-version="12" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
   <script data-source="gwdpagedeck_min.js" data-version="11" data-exports-type="gwd-pagedeck" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdgesture_min.js" data-version="6" data-exports-type="gwd-gesture" src="gwdgesture_min.js"></script>
+  <script data-source="gwdimage_min.js" data-version="12" data-exports-type="gwd-image" src="gwdimage_min.js"></script>
+  <script data-source="gwdgallerynavigation_min.js" data-version="5" data-exports-type="gwd-gallerynavigation" src="gwdgallerynavigation_min.js"></script>
+  <script data-source="gwdcarouselgallery_min.js" data-version="21" data-exports-type="gwd-carouselgallery" src="gwdcarouselgallery_min.js"></script>
 </head>
 
 <body class="document-body">
@@ -113,6 +149,8 @@ body {
       <div class="gwd-page-content page1-content gwd-div-hwcg">
         <h1 class="gwd-h1-1irk">Panorama AR</h1>
         <h1 class="gwd-h1-1rr9">Tap below to get started</h1>
+        <gwd-carouselgallery id="gwd-carouselgallery_1" scaling="contain" pause-front-media="" resume-next-media="" class="gwd-carouselgallery-1uu4" images="assets/1-wtc-america-architecture-374710.jpg" navigation-thumbnails="" show-reflection=""></gwd-carouselgallery>
+        <gwd-gallerynavigation id="gwd-gallerynavigation_1" class="gwd-gallerynavigation-wx74" for="gwd-carouselgallery_1"></gwd-gallerynavigation>
       </div>
     </gwd-page>
   </gwd-pagedeck>
